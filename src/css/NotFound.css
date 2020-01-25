@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+div.not-found-container {
+    height: 100vh;
+    text-align: center;
+    background-image: url("../images/backgrounds/branch-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.not-found-container div.text {
+    padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
