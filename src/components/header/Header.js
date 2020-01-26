@@ -8,7 +8,7 @@ import '../../css/header/Header.css';
 export class Header extends Component {
     render() {
         return (
-            <nav className="header-outer-container header-navbar navbar navbar-expand-md">
+            <nav className="header-outer-container header-navbar navbar navbar-expand-md sticky-top">
                 <Link to="/" className="header-logo">
                     <img src={logo} alt="logo"/>
                 </Link>
