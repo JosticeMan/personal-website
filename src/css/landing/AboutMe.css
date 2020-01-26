@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+div.about-outer-container {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+div.about-outer-container div.about-container {
+    padding: 0;
+}
+
+div.about-outer-container div.about-container div.about-text {
+    text-indent: 5%;
+    padding: 0 5px;
+}
+
+div.about-outer-container hr {
+    margin-bottom: 5px;
+}
+
+div.about-outer-container div.about-container span.about-header {
+    font-weight: 700;
+    font-size: 35px;
+}

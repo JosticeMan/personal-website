@@ -1,0 +1,13 @@
+div.homepage-outer-container {
+    background-image: url("../../images/backgrounds/desk-plant-bg.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+}
+
+div.homepage-outer-container div.homepage-container div.three-container {
+    display: flex;
+}

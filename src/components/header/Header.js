@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import logo from '../../images/logo/main-logo.png';
+import resume from '../../files/JY Resume.pdf';
 
 import '../../css/header/Header.css';
 
@@ -24,15 +25,15 @@ export class Header extends Component {
 
                     <div className="collapse navbar-collapse" id="header-navbar-toggler">
                         <div className="header-right ml-auto form-inline my-3 my-lg-0">
-                            <div>
-                                About
-                            </div>
-                            <div>
-                                Projects
-                            </div>
-                            <div>
+                            <Link className="header-link" to="/work">
+                                Work
+                            </Link>
+                            <a className="header-link" rel="noopener noreferrer" target="_blank" href={resume}>
+                                Resume
+                            </a>
+                            <Link className="header-link" to="/contact">
                                 Contact
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
