@@ -1,0 +1,26 @@
+
+
+div.social-contact-outer-container {
+    text-align: center;
+    width: 100%;
+}
+
+div.social-contact-outer-container div.social-contact-container {
+    position: relative;
+}
+
+div.social-contact-outer-container div.social-contact-container a.social-contact-link i {
+    font-family: sans-serif, 'FontAwesome'!important;
+    font-size: 12vw;
+    width: 100%;
+    padding: 5px;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-style: normal;
+}
+
+@media (min-width: 768px) {
+    div.social-contact-outer-container div.social-contact-container a.social-contact-link i {
+        font-size: 7vw;
+    }
+}
