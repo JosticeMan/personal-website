@@ -1,0 +1,16 @@
+div.work-block-outer-container {
+    margin-top: 15px;
+}
+
+div.work-block-outer-container div.work-block-container {
+
+}
+
+div.work-block-outer-container div.work-block-container hr {
+    background-color: lightgray;
+}
+
+div.work-block-outer-container div.work-block-container div.work-inline {
+    display: inline-block;
+    float: right;
+}

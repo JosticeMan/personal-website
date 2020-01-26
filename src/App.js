@@ -7,6 +7,7 @@ import {Header} from "./components/header/Header";
 import {Footer} from "./components/footer/Footer";
 import {SocialSideBar} from "./components/social/SocialSideBar";
 import {Contact} from "./components/contact/Contact";
+import {Work} from "./components/work/Work";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <div className="Site col p-0">
               <Switch>
                 <Route exact path='/' component={Homepage} />
+                <Route exact path='/work' component={Work} />
                 <Route exact path='/contact' component={Contact} />
                 <Route component={NotFound} />
               </Switch>
