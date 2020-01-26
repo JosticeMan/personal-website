@@ -11,7 +11,7 @@ import {Work} from "./components/work/Work";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"https://justinyau.me"}>
       <div className="row p-0 m-0">
         <div className="app-container">
           <Header />
