@@ -10,7 +10,7 @@ export class Experience extends Component {
         let experiences = [{ 'companyName': 'makeithappen',
             'companyLocation': 'New York, NY',
             'companyDescription': 'A small software services company providing web development services.',
-            'companyRole': 'Web Developer Intern',
+            'companyRole': 'Junior Software Engineer',
             'workTime': '10/2019 – Present',
             'companyResponsibilities':
                 ["Develop within the client tier, middle tier, databases in addition to performing DevOps.",

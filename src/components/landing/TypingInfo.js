@@ -11,7 +11,7 @@ export class TypingInfo extends Component {
                         Justin Yau <br />
                         <Typing.Speed ms={0} />
                         Full Stack Developer <br /> <Typing.Delay ms={500} />
-                        RIT CS Sophomore
+                        RIT CS Junior
                     </Typing>
                 </div>
             </div>
