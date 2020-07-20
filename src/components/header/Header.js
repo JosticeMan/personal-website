@@ -2,42 +2,64 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import logo from '../../images/logo/main-logo.png';
 import resume from '../../files/JY Resume.pdf';
+import withWindowDimensions from './WindowDimension.js';
 
 import '../../css/header/Header.css';
 
-export class Header extends Component {
-    render() {
-        return (
-            <nav className="header-outer-container header-navbar navbar navbar-expand-md sticky-top">
-                <Link to="/" className="header-logo">
-                    <img src={logo} alt="logo"/>
-                </Link>
-                <div className="container header-container">
-                    <button className="navbar-toggler"
-                            type="button"
-                            data-toggle="collapse"
-                            data-target="#header-navbar-toggler"
-                            aria-controls="header-navbar-toggler"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation">
-                        <i className="header-bars fas fa-bars"></i>
-                    </button>
+class Header extends Component {
 
-                    <div className="collapse navbar-collapse" id="header-navbar-toggler">
-                        <div className="header-right ml-auto form-inline my-3 my-lg-0">
-                            <Link className="header-link" to="/work">
+    render() {
+        const { windowWidth } = this.props;
+        if(windowWidth < 767) {
+            return (
+                <nav className="header-outer-container header-navbar">
+                    <div className="container header-container">
+                        <Link to="/" className="header-logo">
+                            <img src={logo} alt="logo"/>
+                        </Link>
+                        <div className="header-links nav">
+                            <Link className="header-link right" to="/work">
                                 Work
                             </Link>
-                            <a className="header-link" rel="noopener noreferrer" target="_blank" href={resume}>
+                            <a className="header-link right" rel="noopener noreferrer" target="_blank" href={resume}>
                                 Resume
                             </a>
-                            <Link className="header-link" to="/contact">
+                            <Link className="header-link left" to="/hobby">
+                                Hobby
+                            </Link>
+                            <Link className="header-link left" to="/contact">
                                 Contact
                             </Link>
                         </div>
+                    </div>
+                </nav>
+            );
+        }
+
+        return (
+            <nav className="header-outer-container header-navbar">
+                <div className="container header-container">
+                    <div className="header-links">
+                        <Link className="header-link right" to="/work">
+                            Work
+                        </Link>
+                        <a className="header-link right" rel="noopener noreferrer" target="_blank" href={resume}>
+                            Resume
+                        </a>
+                        <Link to="/" className="header-logo">
+                            <img src={logo} alt="logo"/>
+                        </Link>
+                        <Link className="header-link left" to="/hobby">
+                            Hobbies
+                        </Link>
+                        <Link className="header-link left" to="/contact">
+                            Contact
+                        </Link>
                     </div>
                 </div>
             </nav>
         );
     }
 }
+
+export default withWindowDimensions(Header);

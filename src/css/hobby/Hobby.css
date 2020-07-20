@@ -1,0 +1,31 @@
+div.hobby-outer-container {
+    padding-bottom: 30px;
+}
+
+div.hobby-outer-container div.hobby-container .typing-text {
+    margin-top: 50px;
+    font-size: 36px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.hobby-outer-container div.hobby-container .hackathon-container {
+    text-align: center;
+}
+
+div.hobby-outer-container div.hobby-container .hackathon-container img {
+    height: 10vw;
+    max-height: 100px;
+}
+
+div.hobby-outer-container div.hobby-container .fish-img-container img {
+    height: 15vw;
+    max-height: 250px;
+}
+
+div.hobby-outer-container div.hobby-container .food-img-container img {
+    height: 25vw;
+    max-height: 250px;
+}

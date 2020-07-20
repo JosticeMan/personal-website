@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 div.about-outer-container {
+    padding: 10px;
     text-align: left;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    color: rgba(0,0,0,0.75);
 }
 
 div.about-outer-container div.about-container {
@@ -22,4 +25,14 @@ div.about-outer-container hr {
 div.about-outer-container div.about-container span.about-header {
     font-weight: 700;
     font-size: 35px;
+}
+
+@media (max-width: 767px) {
+    div.about-outer-container {
+        font-size: 18px;
+    }
+
+    div.about-outer-container div.about-container span.about-header {
+        font-size: 24px;
+    }
 }

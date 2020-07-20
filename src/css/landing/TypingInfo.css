@@ -11,9 +11,10 @@ div.typing-outer-container div.typing-container {
 }
 
 div.typing-outer-container div.typing-container div.typing-text {
-    padding-top: 100px;
+    padding-top: 75px;
+    padding-left: 15px;
     font-size: 5vw;
-    color: black;
+    color: rgba(0,0,0,0.75);
     font-family: 'Bowlby One SC', cursive;
     font-weight: bold;
 }
@@ -21,6 +22,6 @@ div.typing-outer-container div.typing-container div.typing-text {
 @media (min-width: 768px) {
     div.typing-outer-container div.typing-container div.typing-text {
         font-size: 3vw;
-        padding-left: 50px;
+        padding-left: 175px;
     }
 }

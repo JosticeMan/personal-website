@@ -13,17 +13,18 @@ export class Experience extends Component {
             'companyRole': 'Junior Software Engineer',
             'workTime': '10/2019 – Present',
             'companyResponsibilities':
-                ["Develop within the client tier, middle tier, databases in addition to performing DevOps.",
-                 "Responsible for developing new functionality, as well as fixing bugs and software maintenance.",
-                 "Work independently and closely with the lead developer when required to deliver high quality energy software to clients",
-                 "Assist other interns with optimizing and debugging.",
-                 "Designing and consuming REST APIs.",
-                 "Utilized a variety of technologies including C#, Node.js, Express, HTML/CSS/JavaScript, VisualStudio, PostgreSQL, React, Redux, Typescript, Azure, AWS services, and Selenium."]},
+                ["Develop multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
+                 "Collaborating with a small group to deliver high energy applications to be utilized by thousands.",
+                 "Writing scripts to automate the transfer of data and sync databases between regional servers.",
+                 "Designing and consuming REST APIs and Databases.",
+                 "Communicating with clients about project requirements and the current state of development.",
+                 "Interviewing and assessing programmers to join the company.",
+                 "Utilized a variety of technologies including C#, Node.js, Express, HTML/CSS/JavaScript, VisualStudio, PostgreSQL, React, Redux, Typescript, Azure, Ruby on Rails, Azure, Perl, Django, Python, Docker, React Native, Perl, and Selenium."]},
             { 'companyName': 'Pension Trust Solutions',
                 'companyLocation': 'New York, NY',
                 'companyDescription': 'A New York City-based financial planner offering assistance in pension plans & trust.',
                 'companyRole': 'Web Developer Intern',
-                'workTime': '7/2018-8/2018 AND 7/2019 – 8/2019',
+                'workTime': '4 months',
                 'companyResponsibilities': ["Increased company’s digital footprint significantly by developing and deploying a website using ReactJS/Express in addition to reaching out on social media platforms.",
                                             "Increased client base by compiling and contacting potential clients that may be interested in setting up a pension plan.",
                                             "Reduced client file access time to a few seconds by uploading and organizing documents onto a centralized network server.",
@@ -36,7 +37,8 @@ export class Experience extends Component {
             {"projectName": "RShuttle", "projectLink": "https://devpost.com/software/rshuttle", "projectImage": "rshuttle"},
             {"projectName": "Battlemetrics Bot", "projectLink": "https://github.com/JosticeMan/BattlemetricsBot", "projectImage": "battlemetricsbot"},
             {"projectName": "TextSummary", "projectLink": "https://github.com/JosticeMan/TextSummary", "projectImage": "textsummary"},
-            {"projectName": "DiscordSudo", "projectLink": "https://github.com/JosticeMan/DiscordSudo", "projectImage": "discordsudo"}];
+            {"projectName": "DiscordSudo", "projectLink": "https://github.com/JosticeMan/DiscordSudo", "projectImage": "discordsudo"},
+            {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"}];
 
         return (
             <div className="experience-outer-container">
@@ -56,7 +58,7 @@ export class Experience extends Component {
                     <hr />
                     <Row className="work-experience-project-container">
                         {projects.map((item, ind) => <Projects key={"project-experience-" + ind} projectName={item.projectName}
-                        projectLink={item.projectLink} projectImage={item.projectImage}/>)}
+                        projectLink={item.projectLink} projectImage={item.projectImage} projectDescription={item.projectDescription}/>)}
                     </Row>
                 </div>
             </div>

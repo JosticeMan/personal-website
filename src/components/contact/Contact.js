@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/contact/Contact.css';
 import {SocialContact} from "./SocialContact";
-import contact from "../../images/logo/contact.png";
+import contact from "../../images/logo/bitmoji_contact.png";
 
 export class Contact extends Component {
     render() {

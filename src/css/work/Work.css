@@ -1,5 +1,7 @@
-div.work-outer-container {
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+div.work-outer-container {
+    font-family: 'Raleway', sans-serif;
 }
 
 div.work-outer-container div.work-container {

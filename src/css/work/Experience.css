@@ -2,6 +2,7 @@
 
 div.experience-outer-container {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 div.experience-outer-container div.experience-container {
@@ -19,11 +20,12 @@ div.experience-outer-container div.experience-container hr {
 }
 
 div.experience-outer-container div.experience-container .typing-text {
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top: 50px;
+    font-size: 36px;
     color: black;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -33,6 +35,6 @@ div.experience-outer-container div.experience-container .typing-text {
     }
 
     div.experience-outer-container div.experience-container .typing-text {
-        font-size: 30px;
+        font-size: 45px;
     }
 }

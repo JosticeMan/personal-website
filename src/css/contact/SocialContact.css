@@ -21,6 +21,6 @@ div.social-contact-outer-container div.social-contact-container a.social-contact
 
 @media (min-width: 768px) {
     div.social-contact-outer-container div.social-contact-container a.social-contact-link i {
-        font-size: 7vw;
+        font-size: 5vw;
     }
 }

@@ -3,12 +3,6 @@
 div.contact-outer-container {
     padding: 50px 0;
     text-align: center;
-
-    background-image: url("../../images/backgrounds/fern-bg.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
 }
 
@@ -17,7 +11,7 @@ div.contact-outer-container div.contact-container {
 }
 
 div.contact-outer-container div.contact-container img {
-    width: 75%;
+    width: auto;
 }
 
 div.contact-outer-container div.contact-container div.contact-explicit-details {

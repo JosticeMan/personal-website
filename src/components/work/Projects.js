@@ -15,7 +15,8 @@ export class Projects extends Component {
                         <div className="overlay">
                             <h2>{this.props.projectName}</h2>
                             <p>
-                                <a href={this.props.projectLink}>View Code</a>
+                                {this.props.projectLink !== "" ? <a href={this.props.projectLink}>View Code</a>: ''}
+                                {this.props.projectDescription ? this.props.projectDescription: ''}
                             </p>
                         </div>
                 </div>
