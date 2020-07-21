@@ -20,7 +20,7 @@ export class Hobby extends Component {
             <div className="hobby-outer-container">
                 <div className="hobby-container">
                     <Typing speed={50} className="typing-text">
-                        Aquascaping/Aquariums
+                        Aquascaping / Aquariums
                     </Typing>
                     <hr />
                     <div className="fish-container d-flex flex-row justify-content-center">
