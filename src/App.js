@@ -12,7 +12,7 @@ import {Hobby} from "./components/hobby/Hobby";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="row p-0 m-0">
         <div className="app-container">
           <div className="page-wrapper content-wrapper" >
