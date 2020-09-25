@@ -32,7 +32,7 @@ export class Experience extends Component {
         ];
 
         let projects = [{"projectName": "The Orange", "projectLink": "https://github.com/jzaia18/DandyHacks2018", "projectImage": "theorange"},
-            {"projectName": "BeatBot", "projectLink": "https://justinyau.me/BeatBot/", "projectImage": "beatbot"},
+            {"projectName": "BeatBot", "projectLink": "https://github.com/JosticeMan/BeatBot", "projectImage": "beatbot"},
             {"projectName": "Arrakeen Run", "projectLink": "https://github.com/JosticeMan/ArrakeenRun", "projectImage": "arrakeenrun"},
             {"projectName": "RShuttle", "projectLink": "https://devpost.com/software/rshuttle", "projectImage": "rshuttle"},
             {"projectName": "Battlemetrics Bot", "projectLink": "https://github.com/JosticeMan/BattlemetricsBot", "projectImage": "battlemetricsbot"},
