@@ -9,7 +9,7 @@ export class AboutMe extends Component {
                     <hr />
                     <div className="about-text">
                         <p>
-                            <span className="about-header" > Hello! </span> I'm Justin Yau, a local NYC Developer with 8+ months of
+                            <span className="about-header" > Hello! </span> I'm Justin Yau, a local NYC Developer with 1+ year(s) of
                             professional experience implementing technological solutions for various companies. While I am not developing,
                             I like to aquascape tanks and cook. I also have a great deal of interest in researching algae's use as a
                             bio-fuel as an alternative to fossil fuels.
