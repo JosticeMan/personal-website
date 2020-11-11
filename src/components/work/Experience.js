@@ -38,7 +38,10 @@ export class Experience extends Component {
             {"projectName": "Battlemetrics Bot", "projectLink": "https://github.com/JosticeMan/BattlemetricsBot", "projectImage": "battlemetricsbot"},
             {"projectName": "TextSummary", "projectLink": "https://github.com/JosticeMan/TextSummary", "projectImage": "textsummary"},
             {"projectName": "DiscordSudo", "projectLink": "https://github.com/JosticeMan/DiscordSudo", "projectImage": "discordsudo"},
-            {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"}];
+            {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"},
+            {"projectName": "IIL", "projectLink": "https://search.iil.com/search/", "projectImage": "iil"},
+            {"projectName": "WGAE", "projectLink": "https://www.wgaeast.org/", "projectImage": "wgae"},
+            {"projectName": "JVB Health Wellness", "projectLink": "http://www.jvbwellness.com/", "projectImage": "jvb"}];
 
         return (
             <div className="experience-outer-container">
