@@ -11,7 +11,7 @@ export class Experience extends Component {
             'companyLocation': 'New York, NY',
             'companyDescription': 'A small software services company providing web development services.',
             'companyRole': 'Junior Software Engineer',
-            'workTime': '10/2019 – Present',
+            'workTime': '10/2019 – 12/2020',
             'companyResponsibilities':
                 ["Develop multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
                  "Collaborating with a small group to deliver high energy applications to be utilized by thousands.",
@@ -41,7 +41,8 @@ export class Experience extends Component {
             {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"},
             {"projectName": "IIL", "projectLink": "https://search.iil.com/search/", "projectImage": "iil"},
             {"projectName": "WGAE", "projectLink": "https://www.wgaeast.org/", "projectImage": "wgae"},
-            {"projectName": "JVB Health Wellness", "projectLink": "http://www.jvbwellness.com/", "projectImage": "jvb"}];
+            {"projectName": "JVB Health Wellness", "projectLink": "http://www.jvbwellness.com/", "projectImage": "jvb"},
+            {"projectName": "Singularity AI", "projectLink": "https://singularity.ai/", "projectImage": "singularity"}];
 
         return (
             <div className="experience-outer-container">
