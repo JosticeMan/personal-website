@@ -13,7 +13,8 @@ export class Experience extends Component {
             'companyRole': 'Junior Software Engineer',
             'workTime': '10/2019 – 12/2020',
             'companyResponsibilities':
-                ["Develop multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
+                ["Led the development for an e-commerce site for course enrollment that is now in production and used by thousands of users daily.",
+                 "Develop multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
                  "Collaborate with a small group to deliver high energy applications to be utilized by thousands.",
                  "Wrote scripts to automate the transfer of data and sync databases between regional servers.",
                  "Design and consume REST APIs and Databases.",
@@ -32,18 +33,18 @@ export class Experience extends Component {
                                             "Maintaining a clean, safe work environment and a positive attitude."]}
         ];
 
-        let projects = [{"projectName": "The Orange", "projectLink": "https://github.com/jzaia18/DandyHacks2018", "projectImage": "theorange"},
+        let projects = [{"projectName": "IIL", "projectLink": "https://search.iil.com/search/", "projectImage": "iil"},
+            {"projectName": "WGAE", "projectLink": "https://www.wgaeast.org/", "projectImage": "wgae"},
+            {"projectName": "JVB Health Wellness", "projectLink": "http://www.jvbwellness.com/", "projectImage": "jvb"},
+            {"projectName": "Singularity AI", "projectLink": "https://singularity.ai/", "projectImage": "singularity"},
+            {"projectName": "The Orange", "projectLink": "https://github.com/jzaia18/DandyHacks2018", "projectImage": "theorange"},
             {"projectName": "BeatBot", "projectLink": "https://github.com/JosticeMan/BeatBot", "projectImage": "beatbot"},
             {"projectName": "Arrakeen Run", "projectLink": "https://github.com/JosticeMan/ArrakeenRun", "projectImage": "arrakeenrun"},
             {"projectName": "RShuttle", "projectLink": "https://devpost.com/software/rshuttle", "projectImage": "rshuttle"},
             {"projectName": "Battlemetrics Bot", "projectLink": "https://github.com/JosticeMan/BattlemetricsBot", "projectImage": "battlemetricsbot"},
             {"projectName": "TextSummary", "projectLink": "https://github.com/JosticeMan/TextSummary", "projectImage": "textsummary"},
             {"projectName": "DiscordSudo", "projectLink": "https://github.com/JosticeMan/DiscordSudo", "projectImage": "discordsudo"},
-            {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"},
-            {"projectName": "IIL", "projectLink": "https://search.iil.com/search/", "projectImage": "iil"},
-            {"projectName": "WGAE", "projectLink": "https://www.wgaeast.org/", "projectImage": "wgae"},
-            {"projectName": "JVB Health Wellness", "projectLink": "http://www.jvbwellness.com/", "projectImage": "jvb"},
-            {"projectName": "Singularity AI", "projectLink": "https://singularity.ai/", "projectImage": "singularity"}];
+            {"projectName": "leTab", "projectLink": "", "projectImage": "leTab", "projectDescription": "Chrome Tab Manager Extension"},];
 
         return (
             <div className="experience-outer-container">

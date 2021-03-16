@@ -10,11 +10,13 @@ export class Hobby extends Component {
                         {"imgName": "brick6", "link": "https://devpost.com/software/letab"},
                         {"imgName": "dandy2018", "link": "https://github.com/jzaia18/DandyHacks2018"}];
 
-        let aquascape1 = ["scape1", "scape2", "scape3"];
-        let aquascape2 = ["scape4", "fish1", "fish2", "scape5"];
+        let aquascape1 = ["scape4", "fish1", "fish2", "scape5"];
+        let aquascape2 = ["fish3", "fish4", "fish5", "fish6", "fish7"];
+        let aquascape3 = ["scape1", "scape2", "scape3"];
 
-        let food1 = ["food1", "food2", "food3"];
-        let food2 = ["food4", "food5", "food6"];
+        let food1 = ["food4", "food5", "food6"];
+        let food2 = ["food7", "food8", "food9"];
+        let food3 = ["food1", "food2", "food3"];
 
         return (
             <div className="hobby-outer-container">
@@ -30,6 +32,11 @@ export class Hobby extends Component {
                     </div>
                     <div className="fish-container d-flex flex-row justify-content-center">
                         {aquascape2.map((item, key) => <div className="fish-img-container p-2" key={"fish2-img" + key}>
+                            <img src={require("../../images/hobbies/" + item + ".png")} alt={"Aquascape Image"}/>
+                        </div>)}
+                    </div>
+                    <div className="fish-container d-flex flex-row justify-content-center">
+                        {aquascape3.map((item, key) => <div className="fish-img-container p-2" key={"fish2-img" + key}>
                             <img src={require("../../images/hobbies/" + item + ".png")} alt={"Aquascape Image"}/>
                         </div>)}
                     </div>
@@ -53,6 +60,11 @@ export class Hobby extends Component {
                     </div>
                     <div className="food-container d-flex flex-row justify-content-center">
                         {food2.map((item, key) => <div className="food-img-container p-2" key={"food2-img" + key}>
+                            <img src={require("../../images/hobbies/" + item + ".png")} alt={"Food Image"}/>
+                        </div>)}
+                    </div>
+                    <div className="food-container d-flex flex-row justify-content-center">
+                        {food3.map((item, key) => <div className="food-img-container p-2" key={"food2-img" + key}>
                             <img src={require("../../images/hobbies/" + item + ".png")} alt={"Food Image"}/>
                         </div>)}
                     </div>
