@@ -10,7 +10,7 @@ export class Hobby extends Component {
                         {"imgName": "brick6", "link": "https://devpost.com/software/letab"},
                         {"imgName": "dandy2018", "link": "https://github.com/jzaia18/DandyHacks2018"}];
 
-        let aquascape1 = ["scape4", "fish1", "fish2", "scape5"];
+        let aquascape1 = ["scape4", "fish1", "fish2", "scape6"];
         let aquascape2 = ["fish3", "fish4", "fish5", "fish6", "fish7"];
         let aquascape3 = ["scape1", "scape2", "scape3"];
 
