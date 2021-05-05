@@ -7,7 +7,13 @@ import {Row} from "react-bootstrap";
 
 export class Experience extends Component {
     render() {
-        let experiences = [{ 'companyName': 'makeithappen',
+        let experiences = [{ 'companyName': 'Amazon',
+            'companyLocation': 'New York, NY',
+            'companyDescription': 'A multinational company focusing on e-commerce, cloud-computing, digital streaming, and artificial intelligence.',
+            'companyRole': 'Software Development Engineer I Intern',
+            'workTime': '5/2021 - Present',
+            'companyResponsibilities': []},
+            { 'companyName': 'makeithappen',
             'companyLocation': 'New York, NY',
             'companyDescription': 'A small software services company providing web development services.',
             'companyRole': 'Junior Software Engineer',
