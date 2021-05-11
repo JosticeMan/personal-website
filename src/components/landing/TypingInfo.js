@@ -10,7 +10,7 @@ export class TypingInfo extends Component {
                     <Typing speed={150} className="typing-text">
                         Justin Yau <br />
                         <Typing.Speed ms={0} />
-                        Full Stack Developer <br /> <Typing.Delay ms={500} />
+                        Software Engineer <br /> <Typing.Delay ms={500} />
                         RIT CS Senior
                     </Typing>
                 </div>

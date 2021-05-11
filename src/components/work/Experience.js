@@ -11,7 +11,7 @@ export class Experience extends Component {
             'companyLocation': 'New York, NY',
             'companyDescription': 'A multinational company focusing on e-commerce, cloud-computing, digital streaming, and artificial intelligence.',
             'companyRole': 'Software Development Engineer I Intern',
-            'workTime': '5/2021 - Present',
+            'workTime': '5/2021 - 7/2021',
             'companyResponsibilities': []},
             { 'companyName': 'makeithappen',
             'companyLocation': 'New York, NY',
