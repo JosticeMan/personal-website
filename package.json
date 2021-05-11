@@ -22,7 +22,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.0",
     "react-typing-animation": "^1.6.2",
-    "three": "^0.125.0"
+    "three": "^0.112.1"
   },
   "scripts": {
     "start": "react-scripts start",
