@@ -9,7 +9,7 @@ import {SocialSideBar} from "./components/social/SocialSideBar";
 import {Contact} from "./components/contact/Contact";
 import {Work} from "./components/work/Work";
 import {Hobby} from "./components/hobby/Hobby";
-
+//
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
