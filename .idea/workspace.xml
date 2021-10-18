@@ -19,23 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d66281-66d9-4d82-a542-28cee6b7315a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/fish3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/fish4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/fish5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/fish6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/fish7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food9.png" afterDir="false" />
+    <list default="true" id="f8d66281-66d9-4d82-a542-28cee6b7315a" name="Default Changelist" comment="Force update website">
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/scape7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hobbies/scape8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/hobby/Hobby.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hobby/Hobby.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/files/JY Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/JY Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +78,7 @@
       <recent name="D:\Hackathon\personal-website\src\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\justi\WebstormProjects\personal-website\src\files" />
       <recent name="D:\Hackathon\personal-website\src\images" />
       <recent name="D:\Hackathon\personal-website\src\files" />
       <recent name="D:\Hackathon\personal-website\public" />
@@ -119,6 +122,7 @@
       <workItem from="1609258177250" duration="20000" />
       <workItem from="1609258419883" duration="2349000" />
       <workItem from="1615918103515" duration="1505000" />
+      <workItem from="1634521731403" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Added base files">
       <created>1579966203176</created>
@@ -201,6 +205,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added base files" />
@@ -213,29 +218,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated Homepage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609258056213">
+    <state width="752" height="208" key="GridCell.Tab.0.bottom" timestamp="1620692530439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609258056213" />
-    <state width="752" height="209" key="GridCell.Tab.0.bottom" timestamp="1615919105114">
+    <state width="752" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620692530439" />
+    <state width="752" height="208" key="GridCell.Tab.0.center" timestamp="1620692530439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615919105114" />
-    <state width="752" height="209" key="GridCell.Tab.0.center" timestamp="1615919105114">
+    <state width="752" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620692530439" />
+    <state width="752" height="208" key="GridCell.Tab.0.left" timestamp="1620692530439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615919105114" />
-    <state width="752" height="209" key="GridCell.Tab.0.left" timestamp="1615919105114">
+    <state width="752" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620692530439" />
+    <state width="752" height="208" key="GridCell.Tab.0.right" timestamp="1620692530439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615919105114" />
-    <state width="752" height="209" key="GridCell.Tab.0.right" timestamp="1615919105114">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="752" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615919105114" />
-    <state x="545" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609258594570">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="545" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609258594570" />
+    <state width="752" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620692530439" />
   </component>
 </project>

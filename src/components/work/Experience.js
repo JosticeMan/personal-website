@@ -20,13 +20,13 @@ export class Experience extends Component {
             'workTime': '10/2019 – 12/2020',
             'companyResponsibilities':
                 ["Led the development for an e-commerce site for course enrollment that is now in production and used by thousands of users daily.",
-                 "Develop multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
-                 "Collaborate with a small group to deliver high energy applications to be utilized by thousands.",
+                 "Developed multiple applications concurrently within the client-tier, server-tier, and databases in addition to DevOps.",
+                 "Collaborated with a small group to deliver high energy applications to be utilized by thousands.",
                  "Wrote scripts to automate the transfer of data and sync databases between regional servers.",
-                 "Design and consume REST APIs and Databases.",
+                 "Designed and consumed REST APIs and Databases.",
                  "Almost developed an e-commerce site from scratch and deployed it to production individually.",
-                 "Communicate with clients about project requirements and the current state of development.",
-                 "Interview and assess programmers to join the company.",
+                 "Communicated with clients about project requirements and the current state of development.",
+                 "Interviewed and assess programmers to join the company.",
                  "Utilized a variety of technologies including C#, Node.js, Express, HTML/CSS/JavaScript, VisualStudio, PostgreSQL, React, Redux, Typescript, Azure, Ruby on Rails, Azure, Perl, Django, Python, Docker, React Native, Perl, and Selenium."]},
             { 'companyName': 'Pension Trust Solutions',
                 'companyLocation': 'New York, NY',
@@ -36,7 +36,7 @@ export class Experience extends Component {
                 'companyResponsibilities': ["Increased company’s digital footprint significantly by developing and deploying a website using ReactJS/Express in addition to reaching out on social media platforms.",
                                             "Increased client base by compiling and contacting potential clients that may be interested in setting up a pension plan.",
                                             "Reduced client file access time to a few seconds by uploading and organizing documents onto a centralized network server.",
-                                            "Maintaining a clean, safe work environment and a positive attitude."]}
+                                            "Maintained a clean, safe work environment and a positive attitude."]}
         ];
 
         let projects = [{"projectName": "IIL", "projectLink": "https://search.iil.com/search/", "projectImage": "iil"},

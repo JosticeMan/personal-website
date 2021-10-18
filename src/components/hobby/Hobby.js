@@ -12,11 +12,12 @@ export class Hobby extends Component {
 
         let aquascape1 = ["scape4", "fish1", "fish2", "scape6"];
         let aquascape2 = ["fish3", "fish4", "fish5", "fish6", "fish7"];
-        let aquascape3 = ["scape1", "scape2", "scape3"];
+        let aquascape3 = ["scape1", "scape2", "scape8"];
 
-        let food1 = ["food4", "food5", "food6"];
-        let food2 = ["food7", "food8", "food9"];
-        let food3 = ["food1", "food2", "food3"];
+        let food1 = ["food4", "food5", "food6", "food13", "food14"];
+        let food2 = ["food7", "food8", "food9", "food11", "food12"];
+        let food3 = ["food1", "food2", "food3", "food10", "food15"];
+        let food4 = ["food16", "food17", "food18", "food19", "food20"];
 
         return (
             <div className="hobby-outer-container">
@@ -64,7 +65,12 @@ export class Hobby extends Component {
                         </div>)}
                     </div>
                     <div className="food-container d-flex flex-row justify-content-center">
-                        {food3.map((item, key) => <div className="food-img-container p-2" key={"food2-img" + key}>
+                        {food3.map((item, key) => <div className="food-img-container p-2" key={"food3-img" + key}>
+                            <img src={require("../../images/hobbies/" + item + ".png")} alt={"Food Image"}/>
+                        </div>)}
+                    </div>
+                    <div className="food-container d-flex flex-row justify-content-center">
+                        {food4.map((item, key) => <div className="food-img-container p-2" key={"food4-img" + key}>
                             <img src={require("../../images/hobbies/" + item + ".png")} alt={"Food Image"}/>
                         </div>)}
                     </div>
