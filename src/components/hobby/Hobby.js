@@ -8,16 +8,17 @@ export class Hobby extends Component {
         let hackathons = [{"imgName": "bigredhack", "link": "https://devpost.com/software/disastervision"},
                         {"imgName": "brick5", "link": "https://devpost.com/software/rshuttle"},
                         {"imgName": "brick6", "link": "https://devpost.com/software/letab"},
-                        {"imgName": "dandy2018", "link": "https://github.com/jzaia18/DandyHacks2018"}];
+                        {"imgName": "dandy2018", "link": "https://github.com/jzaia18/DandyHacks2018"},
+                        {"imgName": "init2022", "link": "https://devpost.com/software/the-playlist-generator"}];
 
         let aquascape1 = ["scape4", "fish1", "fish2", "scape6"];
-        let aquascape2 = ["fish3", "fish4", "fish5", "fish6", "fish7"];
-        let aquascape3 = ["scape1", "scape2", "scape8"];
+        let aquascape2 = ["fish3", "scape10", "fish4", "fish5", "fish6", "fish7"];
+        let aquascape3 = ["scape1", "scape2", "scape8", "scape7"];
 
-        let food1 = ["food4", "food5", "food6", "food13", "food14"];
-        let food2 = ["food7", "food8", "food9", "food11", "food12"];
-        let food3 = ["food1", "food2", "food3", "food10", "food15"];
-        let food4 = ["food16", "food17", "food18", "food19", "food20"];
+        let food1 = ["food4", "food21", "food6", "food13", "food23"];
+        let food2 = ["food7", "food24", "food9", "food11", "food12"];
+        let food3 = ["food5", "food2", "food26", "food10", "food15"];
+        let food4 = ["food16", "food17", "food18", "food19", "food25"];
 
         return (
             <div className="hobby-outer-container">
