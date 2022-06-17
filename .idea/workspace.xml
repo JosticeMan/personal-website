@@ -20,24 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d66281-66d9-4d82-a542-28cee6b7315a" name="Default Changelist" comment="Force update website">
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/food20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/scape7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hobbies/scape8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hobby/Hobby.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hobby/Hobby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/JY Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/JY Resume.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +107,7 @@
       <workItem from="1609258419883" duration="2349000" />
       <workItem from="1615918103515" duration="1505000" />
       <workItem from="1634521731403" duration="641000" />
+      <workItem from="1655502136346" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="Added base files">
       <created>1579966203176</created>
